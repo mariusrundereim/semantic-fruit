@@ -12,14 +12,14 @@
 }
 
 .mark-1 {
-    background-color: orangered;
+    background-color: var(--main-color);
     padding: .4rem .8rem;
 }
 
 /* Summary */
 
 details {
-    border: 1px solid orangered;
+    border: 1px solid var(--main-color);
     border-radius: 4px;
     padding: .5em 5em 0;
 }
@@ -34,6 +34,6 @@ details[open] {
 }
 
 details[open] summary {
-    border-bottom: 1px solid orangered;
+    border-bottom: 1px solid var(--main-color);
     margin-bottom: .5em;
 }

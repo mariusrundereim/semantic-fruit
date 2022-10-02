@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+:root {
+    --main-color: orangered;
+}
+
 body {
     font-family: 'Inter Tight', sans-serif;
     background-color: white;
@@ -26,13 +30,23 @@ body {
 }
 
 .social-icons > a:hover {
-    color: orangered;
+    color: var(--main-color);
     font-size: 2rem;
 }
 
 .page-logo {
     font-family: 'Noto Sans Mono', monospace;
     font-size: 1.5rem;
+}
+
+.page-logo a {
+    color: black;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.page-logo a:hover {
+    color: var(--main-color);
 }
 
 nav > ul > li {
@@ -62,7 +76,7 @@ nav > ul li > a {
 
 .page-links:hover {
     color: white;
-    background-color: orangered;
+    background-color: var(--main-color);
 }
 
 /* HERO */
@@ -120,10 +134,58 @@ nav > ul li > a {
     gap: 2rem;
 }
 
+
+/****** Apple ******/
+
+.section-games {
+    border: red 1px solid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head-games {
+    background-color: lightpink;
+    min-height: 10rem;
+    border-radius: 2rem;
+}
+
+.head-games h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-games > aside {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-games > aside > header {
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+
+.section-games > main > .category-item {
+    background-color: lightblue;
+    border-radius: 1rem;
+    border: 1px solid black;
+    min-height: 15rem;
+}
+
+.section-games > main > .category-item > header {
+    background-color: #F4A7ED;
+    border-radius: 1rem 1rem 0rem 0rem;
+    border: 1px solid black;
+    min-height: 10rem;
+}
+
+
 /* Footer */
 
 footer {
-    background-color: orangered;
+    background-color: var(--main-color);
     min-height: 15rem;
 
     display: flex;

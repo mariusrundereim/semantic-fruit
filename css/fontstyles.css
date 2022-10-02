@@ -1,6 +1,8 @@
 .hero-caption {
     font-size: 2.6rem;
     font-weight: 600;
+    line-height: 1.7em;
+    letter-spacing: .1em;
 }
 
 .hero-semicaption {
