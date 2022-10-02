@@ -25,6 +25,7 @@ body {
 }
 
 .social-icons > a:hover {
+    color: orangered;
     font-size: 2rem;
 }
 
@@ -51,13 +52,54 @@ nav > ul li > a {
 
 /* HERO */
 
+.container {
+    margin: 0 auto;
+}
+
 .page-hero {
     display: flex;
     flex-direction: row;
-    border: red 1px solid;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .hero-image-1 {
-    width: 100%;
-    max-height: 800px;
+    max-height: 400px;
+}
+
+.hero-col-1 {
+    width: 50%;
+    padding: 2rem;
+    margin-right: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+/* Section - One */
+
+.section-example-1 {
+    border: red 1px dashed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 300px;
+}
+
+.box-1 {
+    font-size: 3rem;
+    color: white;
+    background-color: purple;
+    display: inline-block;
+    padding: 4rem;
+    border-radius: 10px;
+}
+
+.section-example-1 > main {
+    display: flex;
+    flex-direction: row;
 }

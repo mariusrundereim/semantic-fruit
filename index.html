@@ -7,6 +7,7 @@
     <title>Semantic Fruit</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/fontstyles.css">
+    <link rel="stylesheet" href="/css/components.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,9 +23,9 @@
         </div>
         <nav>
             <ul class="page-nav">
-                <li><a href="#">Page One</a></li>
-                <li><a href="#">Page Two</a></li>
-                <li><a href="#">Page Three</a></li>
+                <li><a href="#">Apple</a></li>
+                <li><a href="#">Lemon</a></li>
+                <li><a href="#">Orange</a></li>
             </ul>
         </nav>
         <section class="social-icons">
@@ -33,14 +34,43 @@
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </section>
     </header>
-    <section class="page-hero">
+    <section class="container page-hero">
+        <header class="hero-col-1">
+            <h3 class="hero-caption">Semantics refers to the <mark> meaning </mark>of a piece of code</h3>
+            <p class="hero-semicaption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore odio ex et, repellendus iure vero eligendi perspiciatis! Asperiores unde nihil fugiat necessitatibus id.</p>
+            <button class="btn-1">Read more</button>
+        </header>
+        <div class="hero-col-2">
+            <img class="hero-image-1" src="/images/pexels-309.jpg" alt="bilde-1">
+        </div>
+    </section>
+
+    <section class="section-example-1">
         <header>
-            <h3 class="hero-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sunt a asperiores eaque quo.</h3>
+            <h1>Here are the difference between Semantic and Non-Semantic code</h1>
+            <hr>
         </header>
         <main>
-            <img class="hero-image-1" src="/images/pexels-309.jpg" alt="bilde-1">
+            <section>
+                <div class="box-1">
+                    <h2>< div ></h2>
+                </div>
+                <details>
+                    <summary>Non-Semantic</summary>
+                    <p>This is not a good code for Semantic HTML</p>
+                </details>
+            </section>
+            <section>
+                <div class="box-1">
+                    <h2>< header ></h2>
+                </div>
+                <details>
+                    <summary>Semantic</summary>
+                    <p>This is a good code for Semantic HTML</p>
+                </details>
+            </section>
         </main>
     </section>
-    
+
 </body>
 </html>
