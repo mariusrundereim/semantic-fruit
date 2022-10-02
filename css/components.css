@@ -11,6 +11,11 @@
     margin-bottom: .5em;
 }
 
+.mark-1 {
+    background-color: orangered;
+    padding: .4rem .8rem;
+}
+
 /* Summary */
 
 details {
