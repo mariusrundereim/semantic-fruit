@@ -193,40 +193,60 @@ nav > ul li > a {
     font-size: 1.2rem;
 }
 
-.section-games > main > .category-item {
-    background-color: rgb(255, 255, 255);
-    border-radius: 1rem;
-    outline: 1px solid rgb(155, 155, 155);
-    min-height: 15rem;
+/* Product Item */
+
+
+
+.product-item > a {
+    color: black;
+    text-decoration: none;
+
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
-.section-games > main > .category-item > header {
+.product-item > a > header > i {
+    font-size: 3rem;
+}
+
+.product-item > a > header {
+    color: black;
     background-color: #F4A7ED;
-    border-radius: 1rem 1rem 0rem 0rem;
-    outline: 1px solid rgb(155, 155, 155);
     min-height: 10rem;
-}
-
-.category-item > header > i {
-    font-size: 3.5rem;
-}
-
-.category-item > header {
+    /**/
     display: grid;
     justify-content: center;
     align-items: center;
+    /**/
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px 15px 0 0;
+    /**/
+    transition: 300ms;
+}
+
+.product-item > a > header:hover {
+    color: rgb(229, 177, 255);
+    background-color: blueviolet;
 }
 
 
-
-.game-title {
+.product-item > a > main {
+    background-color: rgb(255, 255, 255);
+    min-height: 3.5rem;
+    /**/
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-top: 1.5rem;
+    /**/
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 15px 15px;
 }
 
-
+.product-item-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
 
 
 
