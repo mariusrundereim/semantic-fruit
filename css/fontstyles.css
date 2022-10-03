@@ -8,3 +8,17 @@
 .hero-semicaption {
     font-size: 1.3rem;
 }
+
+.section-example-1 > header > h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.box-1 > h2 {
+    font-weight: 300;
+}
+
+.game-title > h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
