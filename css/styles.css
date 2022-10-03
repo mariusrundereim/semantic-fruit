@@ -151,18 +151,29 @@ nav > ul li > a {
 }
 
 .head-games {
-    background-color: lightpink;
-    min-height: 10rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /**/
+    background-image: url(/images/pexels-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /**/
+    min-height: 20rem;
     border-radius: 2rem;
 }
 
 
-
-.head-games {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+.head-games > h1 {
+    color: white;
+    font-size: 7rem;
+    letter-spacing: 5px;
+    font-family: 'Bangers', cursive;
+    /**/
+    text-shadow: #c90ccf 2px 5px;
 }
+
 
 .section-games > aside {
     display: flex;
